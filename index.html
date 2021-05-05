@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive Navbar</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+  <div class="background">
+    <nav id="navbar">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><img src="https://lh3.googleusercontent.com/oPy1QLwoXYhi3LvEagn2dxJWzjC8t6secUZl6RVnTmISuFRAbGeCvZcAXB_Nj3lWjtEh9DNeOQWWwjH0P6mAn3-rSkN6gqb2xxl8dkBaZ4vtVA0JU2IfvCprhho7a1XUTVQf4X_-Twc=w2400" /></label>
+
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Features">Features</a></li>
+        <li><a href="#">Prototype</a></li>
+      </ul>
+    </nav>
+
+    <div class="grid-contatiner">
+
+      <!-- Hero image and text -->
+      <div class="grid-item">
+      </div>
+      <img class="inturo" src="https://lh3.googleusercontent.com/M0YowgRTQCLtJ1_WOHz5fXJPAp_f4wtmFUKD4XAYAnjqUxDuoTs1zTbc25zxacuT4Ud65laX9fdf809UE02wnddf_o2skv8QdtDAPutKjg5BWDxD6-5coMalE6NEpab_bEUUEMBeHkQ=w2400">
+
+      <div class="grid-item">
+        <div class="card-grid-item">
+          <div>
+            <h1 id="Home" class="title">Welcome to INTRUO.</h1>
+            <h4 class="card-text">
+              A tool deisgned to help new teachers reflect on thier teaching practice. </h4>
+            <a href="#" class="btn-btn-primary">View Prototype</a>
+          </div>
+
+          <!-- carousel-->
+          <div class="carousel">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div id="testomonials" class="carousel-item active">
+                  <p class="blacktext">"My studnets loved this"</p>
+                </div>
+                <div class="carousel-item">
+                  <p class="blacktext">"My studnets loved this 3"</p>
+                </div>
+                <div class="carousel-item">
+                  <p class="blacktext">"My studnets loved this 4"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--About section  -->
+  <div class="blue">
+    <h1 id="About">About Inturo</h1>
+    <p>After five years of teaching with varying levels of professional development the value of teacher support was imparted to me. As a designer with a focus on ed tech I want to create an app that can help new teachers succeed. Through interviews, research I have come to this first iteration of the “Intruo”.
+    </p>
+    <p>
+      “Inturo” is a teacher reflection/coaching web-based application. With a focus on helping new teachers stay in the teaching field for more than three years, and making new teachers’ better teachers through, shared resources, and reflection journaling, and lesson plan creation..</p>
+  </div>
+
+  <!--Feature-->
+  <div class="featurebackgroundblue">
+
+    <div class="featureshead">
+      <h1 id="Features">Features</h1>
+      <!-- flex icons    -->
+      <p>Create a way to help teachers to reflect and document their <br> teaching practice, and give them acess to resources.</p>
+    </div>
+    <div class="flex-container  animate__fadeIn">
+      <div class=" animate__animated animate__fadeIn"><img onmouseover="bigImg(this)" class="icons" src="https://lh3.googleusercontent.com/lWKCExLH6_gI7MrnlJJOk-6GFoufzSxQO1sgsdjdF2L4nap84go7o0sjEAtCQ5MTCP8C87kQXn1BJrjUk9W4LLgSMxVa_qda3-1uhYo7E92q5zXaVwqihehfKEHInhM9P3CXEJFfNwo=s166-p-k" alt="lesson plan">
+        <p class="inlineparagraph">Lesson plan creation, storing, and sharing</p>
+        <br><img class="icons" src="https://lh3.googleusercontent.com/qdxUuc9v-2uov1fPEfx6WmF3aF3CBDS6oxC_d5qCKpzIRkHOihdYwazhTKxVda-dKejc5hG4_UT-rY26P2ea7mUwsxf8BbJU3rr4XG51ge8uODudTrlDq5WVIOL03QUDK4rIrIaREeY=s166-p-k" alt="resouce icon">
+        <p class="inlineparagraph">Access to teaching resources</p>
+        <br> <img class="icons" src="https://lh3.googleusercontent.com/e9mTJwsvH5wiDmEzNc1SzU6bSFgkWvcKmJ-W-u9cjmkcaiZfPY2WEDB7VX9IvrZiO1DkkP67tkdUQPrTgZK9OhbYtyX05ZDydiW9LAN13M1GRzlxyjdGF-GCuvhGGOLOHEKkD0hWqD4=s166-p-k" alt="share icon">
+        <p class="inlineparagraph">Publish reflections, best practices, and articles with educators across the country</p>
+        <br> <img class="icons" src="https://lh3.googleusercontent.com/mDX0g2NzT1ipYWyw3SqG5uDITwGxrzF0Kfl2pLyLu8zEC5JfSmHwN98VmFC1xBTxC9beUgbX0Y-qNgnAsXsnNSmvDJK-_mqhxCBAjxCwt8HIVOLm-Pnc_VRUWBR-BTj8yIe1zuXf85I=s166-p-k" alt="chat icon">
+        <p class="inlineparagraph"> Interactive chatbot to support teacher reflection</p>
+        <br><img class="icons" src="https://lh3.googleusercontent.com/_-0m3xc-BiVYGbDV6AX4EyE6O9QbOa1bf5yxGFvoGTfVjyT7QSgugaoGMyGTNRbLQxjV1JsXJ-_TVe5E1JzRrehrb0Bd_EkvBYY1hi6SREZ8FKq6jerHQarFy3dqbUqrREYeT32jn2I=s166-p-k" alt="chat review icon">
+        <p class="inlineparagraph">Search and review past journal entries</p>
+      </div>
+      <!-- mock up image     -->
+      <div> <img class="features" src="https://lh3.googleusercontent.com/osYKk3oF6BGqQz1HfXAjD9m_MAMaITKuZyjSPkq7B3RJDypShkbj4WMLzlexlnCnIwMllHdbysP3oWRaFNMny4mtyKrx3VTVvMTIkyQUCBxk6vi-9ScLcSgAZUjmjLy_Iw4lf4osfSI=w2400"></div>
+      <div class="animate__animated animate__fadeIn"></div>
+    </div>
+
+  </div>
+
+  <!-- Video     -->
+  <div class="flex-container videocontainer">
+    <div>
+      <!-- flex icons    -->
+      <div>
+        <div>
+          <h1 class="card-title videoheader">Demo video</h1>
+          <p class="paragrah">Create a way to help teachers to reflect and document their teaching practice,<br> and give them acess to resources.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/150
+C/O https://placeholder.com/">
+    </div>
+  </div>
+
+  <!--Prototype-->
+
+  <div class="backgroundblue">
+    <div class="flex-container2">
+      <div>
+        <iframe src="https://giphy.com/embed/oikSlPQRr9R4ypssDI" width="232" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      </div>
+      <div>
+        <h1 id="Prototype">Prototype</h1>
+        <p>Inturo prototype was built and designed in Figma. <br> Try out the prototype yourself by clicking the button below.
+        </p>
+        <a href="#" class="btn-btn-primary">View Prototype</a>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    (function(d, m) {
+      var kommunicateSettings = {
+        "appId": "8a5fc58b14bcc951a266d811f8395b68",
+        "popupWidget": true,
+        "automaticChatOpenOnNavigation": true
+      };
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+      var h = document.getElementsByTagName("head")[0];
+      h.appendChild(s);
+      window.kommunicate = m;
+      m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+    /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script>
+  <df-messenger chat-icon="https:&#x2F;&#x2F;storage.googleapis.com&#x2F;cloudprod-apiai&#x2F;59e2aeb6-28f6-43d1-9d40-987b1e272605_x.png" intent="WELCOME" chat-title="Inturo" agent-id="84f24230-d87a-4c1b-aacc-f3b15a1feb0a" language-code="en"></df-messenger>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+<footer>
+  <!-- grid with two columns and   -->
+  <div class="flex-container">
+    <h3>Intruo</h3>
+    <li>Project created by Corbin Graves. 2021</li>
+  </div>
+</footer>
+
+</html>
