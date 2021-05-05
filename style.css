@@ -89,6 +89,7 @@ div {
 .inturo {
   display: inline-block;
   margin-left: auto;
+  padding-bottom: 20px;
   margin-right: auto;
   width: 40vw;
   padding: 10px;
