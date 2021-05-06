@@ -183,6 +183,21 @@ function myFunction() {
   }
 }
 </script>
+  <script>
+  $(document).ready(function () {
+  $(".menu-icon").on("click", function () {
+    $("nav ul").toggleClass("showing");
+  });
+});
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $("#navbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});
+  </script>
+  
 </body>
 
 <footer>
