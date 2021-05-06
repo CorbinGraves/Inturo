@@ -86,7 +86,7 @@ div {
   background-image: url(https://lh3.googleusercontent.com/73vlGTTC1PvyU0mQF3Xs7LIWA_dZg6PpIoYoI1ykGulHZ3YmU_j397jpd0erZqLvzjOcAEV_CneiUDvzrfUrUeUj2ii6fG3EXAo0R0IeYzLPwH3Qppz_g89dLy7QDpPFYIrthZiPCwc=w2400);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 800px;
 }
 
 .blue {
@@ -102,13 +102,13 @@ div {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 30vw;
+  width: 40vw;
   padding: 10px;
   padding-bottom: 20px;
   position: absolute;
   top: 2px;
   left: 190px;
-/*   z-index: 0; */
+  z-index: 0;
 }
 .features {
   display: block;
@@ -200,8 +200,8 @@ button,
 .prototype {
   margin: 0px;
   padding-top: 50px;
-  margin-left: 160px;
-  padding: 200px;
+  margin-left: 60px;
+  padding: 50px;
   color: white;
 }
 .flex-container2 {
@@ -235,12 +235,10 @@ nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
-  /*   background-color: #ffb563;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
 }
 
-/*Another short hand margin top&bottom, left&right  */
+
 
 nav ul li a {
   color: black;
